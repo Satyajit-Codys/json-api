@@ -59,6 +59,10 @@ const Search = styled('div')(({ theme }) => ({
         if(!(props.location.pathname.includes('signin')&&flag==='Sign in')) window.location='/signin';
     }
 
+    function handleSearch(){
+        
+    }
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -76,6 +80,7 @@ const Search = styled('div')(({ theme }) => ({
                         <SearchIcon />
                         </SearchIconWrapper>
                         <StyledInputBase
+                        onChange={handleSearch}
                         placeholder="Search…"
                         inputProps={{ 'aria-label': 'search' }}
                         />

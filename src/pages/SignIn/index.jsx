@@ -22,9 +22,11 @@ class SignIn extends Component{
   }
     render(){
         return(
+            <>
             <Container maxWidth="sm">
+            <h2 align="center"> Sign in to continue</h2>
                 <Box>
-                    <Grid container spacing={3} direction="column" justify="center" alignItems='center' alignContent='center' sx={{ marginTop:'30vh' }}>
+                    <Grid container spacing={3} direction="column" justify="center" alignItems='center' alignContent='center' sx={{ marginTop:'10vh' }}>
                         <Grid item>
                           <TextField
                             id="username"
@@ -47,7 +49,7 @@ class SignIn extends Component{
                     </Grid>
                 </Box>
             </Container>
-
+        </>
         )
     }
 
