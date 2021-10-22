@@ -70,7 +70,7 @@ const Search = styled('div')(({ theme }) => ({
             <Grid container justifyContent="space-between">
                 <Grid item>
                     {isloggedIn?(
-                    <Button onClick={()=> props.history.push('/posts')} color="inherit">
+                    <Button onClick={()=> props.history.push('/posts')} color="secondary" variant="contained">
                         Posts
                     </Button>):null
                     }</Grid>
@@ -87,7 +87,7 @@ const Search = styled('div')(({ theme }) => ({
                     </Search>
                     </Grid>
                 <Grid item>
-                <Button onClick={()=> handleClick(isloggedIn? 'Sign out':'Sign in')} color="inherit">{isloggedIn? 'Sign out':'Sign in'}
+                <Button onClick={()=> handleClick(isloggedIn? 'Sign out':'Sign in')} color="secondary" variant="contained">{isloggedIn? 'Sign out':'Sign in'}
                 </Button>
                 </Grid>
             </Grid>
