@@ -11,7 +11,6 @@ function Home() {
             />
           
             <h1>Click on Posts to Continue</h1>
-            
           </div>
         
   );
