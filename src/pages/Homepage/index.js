@@ -10,7 +10,7 @@ function Home() {
               align="center"
             />
           
-            <h1>Click on Posts to Continue</h1>
+            <h1>Click on Navigation Buttons to Continue</h1>
           </div>
         
   );
